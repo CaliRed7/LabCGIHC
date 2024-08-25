@@ -1,0 +1,5 @@
+﻿  P02-318304188.cpp
+E:\Documentos\ProyectosLabCGIHC\P02-318304188\P02-318304188\P02-318304188\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P02-318304188\P02-318304188\P02-318304188\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P02-318304188\P02-318304188\P02-318304188\P02-318304188.cpp(17,37): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+  P02-318304188.vcxproj -> E:\Documentos\ProyectosLabCGIHC\P02-318304188\P02-318304188\Debug\P02-318304188.exe
