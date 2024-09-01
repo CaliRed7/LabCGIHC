@@ -1,4 +1,4 @@
-//pr·ctica 3: Modelado GeomÈtrico y C·mara SintÈtica.
+//pr√°ctica 3: Modelado Geom√©trico y C√°mara Sint√©tica.
 #include <stdio.h>
 #include <string.h>
 #include<cmath>
@@ -10,7 +10,7 @@
 #include<gtc\matrix_transform.hpp>
 #include<gtc\type_ptr.hpp>
 #include <gtc\random.hpp>
-//clases para dar orden y limpieza al cÚdigo
+//clases para dar orden y limpieza al c√≤digo
 #include"Mesh.h"
 #include"Shader.h"
 #include"Sphere.h"
@@ -82,7 +82,7 @@ void CrearCubo()
 	meshList.push_back(cubo);
 }
 
-// Pir·mide triangular regular //No son primitivas y se crean a partir de conos
+// Pir√°mide triangular regular //No son primitivas y se crean a partir de conos
 void CrearPiramideTriangular()
 {
 	unsigned int indices_piramide_triangular[] = {
@@ -106,25 +106,25 @@ void CrearPiramideTriangular()
 
 }
 /*
-Crear cilindro, cono y esferas con arreglos din·micos vector creados en el Semestre 2023 - 1 : por S·nchez PÈrez Omar Alejandro
+Crear cilindro, cono y esferas con arreglos din√°micos vector creados en el Semestre 2023 - 1 : por S√°nchez P√©rez Omar Alejandro
 */
 void CrearCilindro(int res, float R) {
 
 	//constantes utilizadas en los ciclos for
 	int n, i;
-	//c·lculo del paso interno en la circunferencia y variables que almacenar·n cada coordenada de cada vÈrtice
+	//c√°lculo del paso interno en la circunferencia y variables que almacenar√°n cada coordenada de cada v√©rtice
 	GLfloat dt = 2 * PI / res, x, z, y = -0.5f;
 
 	vector<GLfloat> vertices;
 	vector<unsigned int> indices;
 
-	//ciclo for para crear los vÈrtices de las paredes del cilindro
+	//ciclo for para crear los v√©rtices de las paredes del cilindro
 	for (n = 0; n <= (res); n++) {
 		if (n != res) {
 			x = R * cos((n)*dt);
 			z = R * sin((n)*dt);
 		}
-		//caso para terminar el cÌrculo
+		//caso para terminar el c√≠rculo
 		else {
 			x = R * cos((0) * dt);
 			z = R * sin((0) * dt);
@@ -191,7 +191,7 @@ void CrearCilindro(int res, float R) {
 		}
 	}
 
-	//Se generan los indices de los vÈrtices
+	//Se generan los indices de los v√©rtices
 	for (i = 0; i < vertices.size(); i++) indices.push_back(i);
 
 	//se genera el mesh del cilindro
@@ -200,12 +200,12 @@ void CrearCilindro(int res, float R) {
 	meshList.push_back(cilindro);
 }
 
-//funciÛn para crear un cono
+//funci√≥n para crear un cono
 void CrearCono(int res, float R) {
 
 	//constantes utilizadas en los ciclos for
 	int n, i;
-	//c·lculo del paso interno en la circunferencia y variables que almacenar·n cada coordenada de cada vÈrtice
+	//c√°lculo del paso interno en la circunferencia y variables que almacenar√°n cada coordenada de cada v√©rtice
 	GLfloat dt = 2 * PI / res, x, z, y = -0.5f;
 
 	vector<GLfloat> vertices;
@@ -213,10 +213,10 @@ void CrearCono(int res, float R) {
 
 	//caso inicial para crear el cono
 	vertices.push_back(0.0);
-	vertices.push_back(0.5);// con el valor de y est· posicionado en el centro geomÈtrico
+	vertices.push_back(0.5);// con el valor de y est√° posicionado en el centro geom√©trico
 	vertices.push_back(0.0);
 
-	//ciclo for para crear los vÈrtices de la circunferencia del cono
+	//ciclo for para crear los v√©rtices de la circunferencia del cono
 	for (n = 0; n <= (res); n++) {
 		x = R * cos((n)*dt);
 		z = R * sin((n)*dt);
@@ -247,7 +247,7 @@ void CrearCono(int res, float R) {
 	meshList.push_back(cono);
 }
 
-//funciÛn para crear pir·mide cuadrangular unitaria
+//funci√≥n para crear pir√°mide cuadrangular unitaria
 void CrearPiramideCuadrangular()
 {
 	vector<unsigned int> piramidecuadrangular_indices = {
@@ -287,28 +287,28 @@ void CreateShaders()
 
 int main()
 {
-	mainWindow = Window(800, 800); //preferentemente resoluciÛn par
+	mainWindow = Window(800, 800); //preferentemente resoluci√≥n par
 	mainWindow.Initialise();
-	//Cilindro y cono reciben resoluciÛn (slices, rebanadas) y Radio de circunferencia de la base y tapa
+	//Cilindro y cono reciben resoluci√≥n (slices, rebanadas) y Radio de circunferencia de la base y tapa
 
-	CrearCubo();//Ìndice 0 en MeshList
-	CrearPiramideTriangular();//Ìndice 1 en MeshList
-	CrearCilindro(5, 1.0f);//Ìndice 2 en MeshList //cambia el 5 para cambiar la resoluciÛn y visualizar mejor la imagen
-	CrearCono(25, 2.0f);//Ìndice 3 en MeshList //este asÌ est· bien, 25 lados es suficiente para ver circular la base
-	CrearPiramideCuadrangular();//Ìndice 4 en MeshList
+	CrearCubo();//√≠ndice 0 en MeshList
+	CrearPiramideTriangular();//√≠ndice 1 en MeshList
+	CrearCilindro(5, 1.0f);//√≠ndice 2 en MeshList //cambia el 5 para cambiar la resoluci√≥n y visualizar mejor la imagen
+	CrearCono(25, 2.0f);//√≠ndice 3 en MeshList //este as√≠ est√° bien, 25 lados es suficiente para ver circular la base
+	CrearPiramideCuadrangular();//√≠ndice 4 en MeshList
 	CreateShaders();
 
 
 
-	/*C·mara se usa el comando: glm::lookAt(vector de posiciÛn, vector de orientaciÛn, vector up));
+	/*C√°mara se usa el comando: glm::lookAt(vector de posici√≥n, vector de orientaci√≥n, vector up));
 	En la clase Camera se reciben 5 datos:
-	glm::vec3 vector de posiciÛn,
+	glm::vec3 vector de posici√≥n,
 	glm::vec3 vector up,
-	GlFloat yaw rotaciÛn para girar hacia la derecha e izquierda
-	GlFloat pitch rotaciÛn para inclinar hacia arriba y abajo
+	GlFloat yaw rotaci√≥n para girar hacia la derecha e izquierda
+	GlFloat pitch rotaci√≥n para inclinar hacia arriba y abajo
 	GlFloat velocidad de desplazamiento,
 	GlFloat velocidad de vuelta o de giro
-	Se usa el Mouse y las teclas WASD y su posiciÛn inicial est· en 0,0,1 y ve hacia 0,0,-1.
+	Se usa el Mouse y las teclas WASD y su posici√≥n inicial est√° en 0,0,1 y ve hacia 0,0,-1.
 	*/
 
 	camera = Camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f), -60.0f, 0.0f, 0.3f, 0.3f);
@@ -333,12 +333,12 @@ int main()
 	{
 
 		GLfloat now = glfwGetTime();
-		deltaTime = now - lastTime;//se preguntar· su funciÛn1
-		deltaTime += (now - lastTime) / limitFPS;//se preguntar· su funciÛn1
-		lastTime = now;//se preguntar· su funciÛn1
+		deltaTime = now - lastTime;//se preguntar√° su funci√≥n1
+		deltaTime += (now - lastTime) / limitFPS;//se preguntar√° su funci√≥n1
+		lastTime = now;//se preguntar√° su funci√≥n1
 		//Recibir eventos del usuario
 		glfwPollEvents();
-		//C·mara
+		//C√°mara
 		camera.keyControl(mainWindow.getsKeys(), deltaTime);
 		camera.mouseControl(mainWindow.getXChange(), mainWindow.getYChange());
 
@@ -352,7 +352,7 @@ int main()
 		uniformColor = shaderList[0].getColorLocation();
 
 //		model = glm::mat4(1.0);
-		//TraslaciÛn inicial para posicionar en -Z a los objetos
+		//Traslaci√≥n inicial para posicionar en -Z a los objetos
 //		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -4.0f));
 		//otras transformaciones para el objeto
 		//model = glm::scale(model, glm::vec3(0.5f,0.5f,0.5f));
@@ -360,23 +360,23 @@ int main()
 //		model = glm::rotate(model, glm::radians(mainWindow.getrotay()), glm::vec3(0.0f, 1.0f, 0.0f));  //al presionar la tecla Y se rota sobre el eje y
 //		model = glm::rotate(model, glm::radians(mainWindow.getrotaz()), glm::vec3(0.0f, 0.0f, 1.0f));
 //		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-		//la lÌnea de proyecciÛn solo se manda una vez a menos que en tiempo de ejecuciÛn
-		//se programe cambio entre proyecciÛn ortogonal y perspectiva
+		//la l√≠nea de proyecci√≥n solo se manda una vez a menos que en tiempo de ejecuci√≥n
+		//se programe cambio entre proyecci√≥n ortogonal y perspectiva
 //		glUniformMatrix4fv(uniformProjection, 1, GL_FALSE, glm::value_ptr(projection));
 //		glUniformMatrix4fv(uniformView, 1, GL_FALSE, glm::value_ptr(camera.calculateViewMatrix()));
 //		color = glm::vec3(0.0f, 0.0f, 1.0f);
 //		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
-		//meshList[0]->RenderMesh(); //dibuja cubo y pir·mide triangular - 0 cubo 1 pir·mide
-		//////////////alterna ac·
-		//meshList[3]->RenderMeshGeometry(); //dibuja las figuras geomÈtricas cilindro, cono, pir·mide base cuadrangular
-		//////////////alterna tambiÈn ac·
+		//meshList[0]->RenderMesh(); //dibuja cubo y pir√°mide triangular - 0 cubo 1 pir√°mide
+		//////////////alterna ac√°
+		//meshList[3]->RenderMeshGeometry(); //dibuja las figuras geom√©tricas cilindro, cono, pir√°mide base cuadrangular
+		//////////////alterna tambi√©n ac√°
 		//sp.render(); //dibuja esfera - la esfera tiene su propio render
 
-		//ejercicio: Instanciar primitivas geomÈtricas para recrear el dibujo de la pr·ctica pasada en 3D,
+		//ejercicio: Instanciar primitivas geom√©tricas para recrear el dibujo de la pr√°ctica pasada en 3D,
 		//se requiere que exista piso y la casa tiene una ventana azul circular justo en medio de la pared trasera y solo 1 puerta frontal.
 		//model = glm::mat4(1.0f);
 		//color = glm::vec3(0.0f, 1.0f, 0.0f);
-		//Opcional duplicar esta traslaciÛn inicial para posicionar en -Z a los objetos en el mismo punto
+		//Opcional duplicar esta traslaci√≥n inicial para posicionar en -Z a los objetos en el mismo punto
 		//model = glm::translate(model, glm::vec3(0.0f, 0.0f, -3.0f));
 		//model = glm::translate(model, glm::vec3(0.0f, 0.75f, -2.5f));
 		//model = glm::scale(model, glm::vec3(0.5f, 0.5f, 1.0f));
@@ -385,7 +385,7 @@ int main()
 
 /********************************************************************************************************************/
 
-		//PIR¡MIDE NEGRA (BASE)
+		//PIR√ÅMIDE NEGRA (BASE)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.0f, -0.5f, -3.0f));
@@ -399,7 +399,7 @@ int main()
 
 		/************************ROJA************************/
 
-		//PIR¡MITE ROJA 1
+		//PIR√ÅMITE ROJA 1
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.0f, 0.07f, -2.56f));
@@ -410,7 +410,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE ROJA 2
+		//PIR√ÅMIDE ROJA 2
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.3f, -0.36f, -2.72f));
@@ -421,7 +421,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE ROJA 3
+		//PIR√ÅMIDE ROJA 3
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.0f, -0.36f, -2.725f));
@@ -432,7 +432,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 
-		//PIR¡MIDE ROJA 4
+		//PIR√ÅMIDE ROJA 4
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.3f, -0.36f, -2.72f));
@@ -443,7 +443,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 
-		//PIR¡MIDE ROJA 5
+		//PIR√ÅMIDE ROJA 5
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.56f, -0.8f, -2.87f));
@@ -454,7 +454,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE ROJA 6
+		//PIR√ÅMIDE ROJA 6
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.28f, -0.8f, -2.87f));
@@ -465,7 +465,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE ROJA 7
+		//PIR√ÅMIDE ROJA 7
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.0f, -0.8f, -2.87f));
@@ -476,7 +476,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 					
-		//PIR¡MIDE ROJA 8
+		//PIR√ÅMIDE ROJA 8
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.28f, -0.8f, -2.87f));
@@ -487,7 +487,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE ROJA 9
+		//PIR√ÅMIDE ROJA 9
 		model = glm::mat4(1.0);
 		color = glm::vec3(1.0f, 0.0f, 0.0f);
 		model = glm::translate(model, glm::vec3(0.56f, -0.8f, -2.87f));
@@ -500,7 +500,7 @@ int main()
 		
 		/************************VERDE************************/
 
-		//PIR¡MIDE VERDE 1 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 1 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.15f, 0.1f, -2.33f));
@@ -513,7 +513,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 2 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 2 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.46f, -0.36f, -2.48f));
@@ -526,7 +526,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 3 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 3 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.36f, -0.35f, -2.25f));
@@ -539,7 +539,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 4 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 4 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.19f, -0.38f, -1.96f));
@@ -552,7 +552,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 5 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 5 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.78f, -0.82f, -2.62f));
@@ -565,7 +565,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 6 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 6 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.67f, -0.82f, -2.36f));
@@ -578,7 +578,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 7 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 7 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.51f, -0.85f, -2.135f));
@@ -591,7 +591,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE VERDE 8 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 8 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.38f, -0.84f, -1.85f));
@@ -604,7 +604,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 				
-		//PIR¡MIDE VERDE 9 (0.0f,0.5f,0.0f)
+		//PIR√ÅMIDE VERDE 9 (0.0f,0.5f,0.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 0.5f, 0.0f);
 		model = glm::translate(model, glm::vec3(-0.23f, -0.87f, -1.6f));
@@ -619,7 +619,7 @@ int main()
 		
 		/************************AZUL************************/
 
-		//PIR¡MIDE AZUL 1 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 1 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.1f, 0.1f, -2.35f));
@@ -632,7 +632,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 2 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 2 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.1f, -0.36f, -1.98f));
@@ -645,7 +645,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 3 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 3 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.25f, -0.36f, -2.225F));
@@ -658,7 +658,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 4 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 4 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.4f, -0.36f, -2.5F));
@@ -671,7 +671,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 5 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 5 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.14f, -0.84f, -1.62F));
@@ -684,7 +684,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 6 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 6 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.24f, -0.83f, -1.89F));
@@ -697,7 +697,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();		
 
-		//PIR¡MIDE AZUL 7 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 7 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.37f, -0.87f, -2.17f));
@@ -710,7 +710,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 8 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 8 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.54f, -0.82f, -2.435F));
@@ -723,7 +723,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE AZUL 9 (0.0f, 255.0f, 255.0f)
+		//PIR√ÅMIDE AZUL 9 (0.0f, 255.0f, 255.0f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.0f, 255.0f, 255.0f);
 		model = glm::translate(model, glm::vec3(0.67f, -0.82f, -2.68f));
@@ -736,9 +736,9 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		/************************CAF…************************/
+		/************************CAF√â************************/
 
-		//PIR¡MIDE CAF… 1 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 1 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(-0.75f, -1.115f, -2.78f));
@@ -750,7 +750,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 2 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 2 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(-0.1f, -1.12f, -2.75f));
@@ -762,7 +762,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 3 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 3 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(-0.27f, -1.128f, -2.5f));
@@ -775,7 +775,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 4 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 4 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(-0.399f, -1.16f, -2.22f));
@@ -787,7 +787,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 5 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 5 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(0.53f, -1.115f, -2.72f));
@@ -799,7 +799,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 6 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 6 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(0.365f, -1.15f, -2.45f));
@@ -811,7 +811,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 7 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 7 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(0.25f, -1.15f, -2.2f));
@@ -823,7 +823,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 8 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 8 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(0.11f, -1.157f, -1.955f));
@@ -835,7 +835,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color)); //para cambiar el color del objetos
 		meshList[4]->RenderMeshGeometry();
 		
-		//PIR¡MIDE CAF… 9 (0.478f, 0.255f, 0.067f)
+		//PIR√ÅMIDE CAF√â 9 (0.478f, 0.255f, 0.067f)
 		model = glm::mat4(1.0);
 		color = glm::vec3(0.478f, 0.255f, 0.067f);
 		model = glm::translate(model, glm::vec3(-0.02f, -1.18f, -1.68f));
