@@ -1,0 +1,9 @@
+﻿  Link-318304188.cpp
+E:\Documentos\ProyectosLabCGIHC\Link-318304188\Link-318304188\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\Link-318304188\Link-318304188\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  Generando código
+  0 of 336 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Link-318304188.vcxproj -> E:\Documentos\ProyectosLabCGIHC\Link-318304188\Release\Link-318304188.exe
