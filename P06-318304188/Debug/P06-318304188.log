@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (practica6.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  P06-318304188.cpp
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\P06-318304188.cpp(220,9): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\P06-318304188.cpp(222,26): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\P06-318304188.cpp(231,26): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\P06-318304188.cpp(353,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P06-318304188\P06-318304188\P06-318304188.cpp(355,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  P06-318304188.vcxproj -> E:\Documentos\ProyectosLabCGIHC\P06-318304188\Debug\P06-318304188.exe
