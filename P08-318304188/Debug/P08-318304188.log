@@ -1,0 +1,7 @@
+﻿  practica8.cpp
+E:\Documentos\ProyectosLabCGIHC\P08-318304188\P08-318304188\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P08-318304188\P08-318304188\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P08-318304188\P08-318304188\practica8.cpp(348,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P08-318304188\P08-318304188\practica8.cpp(350,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P08-318304188\P08-318304188\practica8.cpp(408,36): warning C4805: '==': combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+  P08-318304188.vcxproj -> E:\Documentos\ProyectosLabCGIHC\P08-318304188\Debug\P08-318304188.exe
