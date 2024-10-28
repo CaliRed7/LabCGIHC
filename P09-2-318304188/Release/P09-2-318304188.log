@@ -1,0 +1,65 @@
+﻿  Camera.cpp
+  DirectionalLight.cpp
+  Light.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\DirectionalLight.cpp(18,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\DirectionalLight.cpp(19,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\DirectionalLight.cpp(21,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\DirectionalLight.cpp(22,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  Material.cpp
+  Mesh_tn.cpp
+  Model.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Model.cpp(16,10): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'const std::string'
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Model.cpp(16,80): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Model.cpp(51,7): warning C4804: '<': uso no seguro del tipo 'bool' en la operación
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Model.cpp(51,21): warning C4018: '<': no coinciden signed/unsigned
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Model.cpp(138,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Model.cpp(147,14): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'std::string'
+  PointLight.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(28,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(29,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(30,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(32,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(33,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(34,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\PointLight.cpp(35,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+  P09-2-318304188.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\P09-2-318304188.cpp(91,10): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\P09-2-318304188.cpp(485,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\P09-2-318304188.cpp(487,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\P09-2-318304188.cpp(803,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\P09-2-318304188.cpp(902,27): warning C4305: '+=': truncamiento de 'double' a 'float'
+  Shader_light.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(215,75): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(215,26): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(214,91): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(214,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(228,98): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(228,62): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(228,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(227,70): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(227,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(226,88): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Shader_light.cpp(226,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+  Skybox.cpp
+  Sphere.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Sphere.cpp(39,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Sphere.cpp(43,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  SpotLight.cpp
+  Texture.cpp
+  Window.cpp
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(158,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(159,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(163,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(164,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(166,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(167,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\P09-2-318304188\Window.cpp(75): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  All 950 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  P09-2-318304188.vcxproj -> E:\Documentos\ProyectosLabCGIHC\P09-2-318304188\Release\P09-2-318304188.exe
