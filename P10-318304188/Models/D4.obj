@@ -1,0 +1,101 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 01.11.2024 15:04:58
+
+mtllib D4.mtl
+
+#
+# object mesh0
+#
+
+v  4.1929 0.4555 -19.8012
+v  -7.4510 0.4555 -19.8012
+v  -1.6291 0.3940 -29.8836
+# 3 vertices
+
+vn 0.0000 -0.3487 -0.9372
+# 1 vertex normals
+
+vt 0.4762 0.2594 0.0000
+vt 0.2988 0.4957 0.0000
+vt 0.0969 0.2558 0.0000
+# 3 texture coords
+
+o mesh0
+g mesh0
+usemtl D4_02___Default
+s 1
+f 1/1/1 2/2/1 3/3/1 
+# 1 faces
+
+#
+# object mesh1
+#
+
+v  -1.6291 10.5174 -23.2235
+v  -1.6291 0.3940 -29.8836
+v  -7.4510 0.4555 -19.8012
+# 3 vertices
+
+vn -0.8216 0.5549 0.1310
+# 1 vertex normals
+
+vt 0.7195 0.4871 0.0000
+vt 0.5517 0.2679 0.0000
+vt 0.9145 0.2607 0.0000
+# 3 texture coords
+
+o mesh1
+g mesh1
+usemtl D4_02___Default
+s 1
+f 4/4/2 5/5/2 6/6/2 
+# 1 faces
+
+#
+# object mesh2
+#
+
+v  -1.6291 10.5174 -23.2235
+v  -7.4510 0.4555 -19.8012
+v  4.1929 0.4555 -19.8012
+# 3 vertices
+
+vn 0.0000 -0.7789 0.6272
+# 1 vertex normals
+
+vt 0.6977 0.5034 0.0000
+vt 0.3208 0.5032 0.0000
+vt 0.5120 0.2819 0.0000
+# 3 texture coords
+
+o mesh2
+g mesh2
+usemtl D4_02___Default
+s 1
+f 7/7/3 8/8/3 9/9/3 
+# 1 faces
+
+#
+# object mesh3
+#
+
+v  -1.6291 10.5174 -23.2235
+v  4.1929 0.4555 -19.8012
+v  -1.6291 0.3940 -29.8836
+# 3 vertices
+
+vn 0.8216 0.5549 0.1310
+# 1 vertex normals
+
+vt 0.3200 0.5222 0.0000
+vt 0.7031 0.5259 0.0000
+vt 0.5145 0.7531 0.0000
+# 3 texture coords
+
+o mesh3
+g mesh3
+usemtl D4_02___Default
+s 1
+f 10/10/4 11/11/4 12/12/4 
+# 1 faces
+
