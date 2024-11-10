@@ -1,0 +1,605 @@
+FrameIndex = 151
+KeyFrame[0].movrocketcar_x = 22f;
+KeyFrame[0].movrocketcar_z = -64f;
+KeyFrame[0].girorocketcar = -90f;
+
+KeyFrame[1].movrocketcar_x = 22f;
+KeyFrame[1].movrocketcar_z = -64f;
+KeyFrame[1].girorocketcar = -90f;
+
+KeyFrame[2].movrocketcar_x = 22f;
+KeyFrame[2].movrocketcar_z = -64f;
+KeyFrame[2].girorocketcar = -90f;
+
+KeyFrame[3].movrocketcar_x = 22f;
+KeyFrame[3].movrocketcar_z = -64f;
+KeyFrame[3].girorocketcar = -90f;
+
+KeyFrame[4].movrocketcar_x = 22f;
+KeyFrame[4].movrocketcar_z = -64f;
+KeyFrame[4].girorocketcar = -90f;
+
+KeyFrame[5].movrocketcar_x = 22f;
+KeyFrame[5].movrocketcar_z = -64f;
+KeyFrame[5].girorocketcar = -90f;
+
+KeyFrame[6].movrocketcar_x = 22f;
+KeyFrame[6].movrocketcar_z = -64f;
+KeyFrame[6].girorocketcar = -90f;
+
+KeyFrame[7].movrocketcar_x = 22f;
+KeyFrame[7].movrocketcar_z = -64f;
+KeyFrame[7].girorocketcar = -90f;
+
+KeyFrame[8].movrocketcar_x = 24f;
+KeyFrame[8].movrocketcar_z = -64f;
+KeyFrame[8].girorocketcar = -90f;
+
+KeyFrame[9].movrocketcar_x = 24f;
+KeyFrame[9].movrocketcar_z = -64f;
+KeyFrame[9].girorocketcar = -90f;
+
+KeyFrame[10].movrocketcar_x = 24f;
+KeyFrame[10].movrocketcar_z = -64f;
+KeyFrame[10].girorocketcar = -90f;
+
+KeyFrame[11].movrocketcar_x = 24f;
+KeyFrame[11].movrocketcar_z = -64f;
+KeyFrame[11].girorocketcar = -90f;
+
+KeyFrame[12].movrocketcar_x = 24f;
+KeyFrame[12].movrocketcar_z = -64f;
+KeyFrame[12].girorocketcar = -90f;
+
+KeyFrame[13].movrocketcar_x = 27f;
+KeyFrame[13].movrocketcar_z = -64f;
+KeyFrame[13].girorocketcar = -90f;
+
+KeyFrame[14].movrocketcar_x = 27f;
+KeyFrame[14].movrocketcar_z = -64f;
+KeyFrame[14].girorocketcar = -90f;
+
+KeyFrame[15].movrocketcar_x = 27f;
+KeyFrame[15].movrocketcar_z = -64f;
+KeyFrame[15].girorocketcar = -90f;
+
+KeyFrame[16].movrocketcar_x = 27f;
+KeyFrame[16].movrocketcar_z = -64f;
+KeyFrame[16].girorocketcar = -90f;
+
+KeyFrame[17].movrocketcar_x = 27f;
+KeyFrame[17].movrocketcar_z = -64f;
+KeyFrame[17].girorocketcar = -90f;
+
+KeyFrame[18].movrocketcar_x = 30f;
+KeyFrame[18].movrocketcar_z = -64f;
+KeyFrame[18].girorocketcar = -90f;
+
+KeyFrame[19].movrocketcar_x = 30f;
+KeyFrame[19].movrocketcar_z = -64f;
+KeyFrame[19].girorocketcar = -90f;
+
+KeyFrame[20].movrocketcar_x = 30f;
+KeyFrame[20].movrocketcar_z = -64f;
+KeyFrame[20].girorocketcar = -90f;
+
+KeyFrame[21].movrocketcar_x = 30f;
+KeyFrame[21].movrocketcar_z = -64f;
+KeyFrame[21].girorocketcar = -90f;
+
+KeyFrame[22].movrocketcar_x = 30f;
+KeyFrame[22].movrocketcar_z = -64f;
+KeyFrame[22].girorocketcar = -90f;
+
+KeyFrame[23].movrocketcar_x = 30f;
+KeyFrame[23].movrocketcar_z = -64f;
+KeyFrame[23].girorocketcar = -90f;
+
+KeyFrame[24].movrocketcar_x = 33f;
+KeyFrame[24].movrocketcar_z = -64f;
+KeyFrame[24].girorocketcar = -90f;
+
+KeyFrame[25].movrocketcar_x = 33f;
+KeyFrame[25].movrocketcar_z = -64f;
+KeyFrame[25].girorocketcar = -90f;
+
+KeyFrame[26].movrocketcar_x = 33f;
+KeyFrame[26].movrocketcar_z = -64f;
+KeyFrame[26].girorocketcar = -90f;
+
+KeyFrame[27].movrocketcar_x = 33f;
+KeyFrame[27].movrocketcar_z = -64f;
+KeyFrame[27].girorocketcar = -90f;
+
+KeyFrame[28].movrocketcar_x = 33f;
+KeyFrame[28].movrocketcar_z = -64f;
+KeyFrame[28].girorocketcar = -90f;
+
+KeyFrame[29].movrocketcar_x = 35f;
+KeyFrame[29].movrocketcar_z = -64f;
+KeyFrame[29].girorocketcar = -90f;
+
+KeyFrame[30].movrocketcar_x = 35f;
+KeyFrame[30].movrocketcar_z = -64f;
+KeyFrame[30].girorocketcar = -90f;
+
+KeyFrame[31].movrocketcar_x = 35f;
+KeyFrame[31].movrocketcar_z = -64f;
+KeyFrame[31].girorocketcar = -90f;
+
+KeyFrame[32].movrocketcar_x = 35f;
+KeyFrame[32].movrocketcar_z = -64f;
+KeyFrame[32].girorocketcar = -90f;
+
+KeyFrame[33].movrocketcar_x = 35f;
+KeyFrame[33].movrocketcar_z = -64f;
+KeyFrame[33].girorocketcar = -90f;
+
+KeyFrame[34].movrocketcar_x = 35f;
+KeyFrame[34].movrocketcar_z = -64f;
+KeyFrame[34].girorocketcar = -90f;
+
+KeyFrame[35].movrocketcar_x = 38f;
+KeyFrame[35].movrocketcar_z = -64f;
+KeyFrame[35].girorocketcar = -90f;
+
+KeyFrame[36].movrocketcar_x = 38f;
+KeyFrame[36].movrocketcar_z = -64f;
+KeyFrame[36].girorocketcar = -90f;
+
+KeyFrame[37].movrocketcar_x = 38f;
+KeyFrame[37].movrocketcar_z = -64f;
+KeyFrame[37].girorocketcar = -90f;
+
+KeyFrame[38].movrocketcar_x = 38f;
+KeyFrame[38].movrocketcar_z = -64f;
+KeyFrame[38].girorocketcar = -90f;
+
+KeyFrame[39].movrocketcar_x = 38f;
+KeyFrame[39].movrocketcar_z = -64f;
+KeyFrame[39].girorocketcar = -90f;
+
+KeyFrame[40].movrocketcar_x = 41f;
+KeyFrame[40].movrocketcar_z = -64f;
+KeyFrame[40].girorocketcar = -90f;
+
+KeyFrame[41].movrocketcar_x = 41f;
+KeyFrame[41].movrocketcar_z = -64f;
+KeyFrame[41].girorocketcar = -90f;
+
+KeyFrame[42].movrocketcar_x = 41f;
+KeyFrame[42].movrocketcar_z = -64f;
+KeyFrame[42].girorocketcar = -90f;
+
+KeyFrame[43].movrocketcar_x = 41f;
+KeyFrame[43].movrocketcar_z = -64f;
+KeyFrame[43].girorocketcar = -90f;
+
+KeyFrame[44].movrocketcar_x = 41f;
+KeyFrame[44].movrocketcar_z = -64f;
+KeyFrame[44].girorocketcar = -90f;
+
+KeyFrame[45].movrocketcar_x = 41f;
+KeyFrame[45].movrocketcar_z = -64f;
+KeyFrame[45].girorocketcar = -90f;
+
+KeyFrame[46].movrocketcar_x = 41f;
+KeyFrame[46].movrocketcar_z = -64f;
+KeyFrame[46].girorocketcar = -90f;
+
+KeyFrame[47].movrocketcar_x = 43f;
+KeyFrame[47].movrocketcar_z = -64f;
+KeyFrame[47].girorocketcar = -90f;
+
+KeyFrame[48].movrocketcar_x = 43f;
+KeyFrame[48].movrocketcar_z = -64f;
+KeyFrame[48].girorocketcar = -90f;
+
+KeyFrame[49].movrocketcar_x = 43f;
+KeyFrame[49].movrocketcar_z = -64f;
+KeyFrame[49].girorocketcar = -90f;
+
+KeyFrame[50].movrocketcar_x = 43f;
+KeyFrame[50].movrocketcar_z = -64f;
+KeyFrame[50].girorocketcar = -90f;
+
+KeyFrame[51].movrocketcar_x = 43f;
+KeyFrame[51].movrocketcar_z = -64f;
+KeyFrame[51].girorocketcar = -90f;
+
+KeyFrame[52].movrocketcar_x = 43f;
+KeyFrame[52].movrocketcar_z = -64f;
+KeyFrame[52].girorocketcar = -90f;
+
+KeyFrame[53].movrocketcar_x = 43f;
+KeyFrame[53].movrocketcar_z = -64f;
+KeyFrame[53].girorocketcar = -90f;
+
+KeyFrame[54].movrocketcar_x = 45f;
+KeyFrame[54].movrocketcar_z = -64f;
+KeyFrame[54].girorocketcar = -90f;
+
+KeyFrame[55].movrocketcar_x = 45f;
+KeyFrame[55].movrocketcar_z = -64f;
+KeyFrame[55].girorocketcar = -90f;
+
+KeyFrame[56].movrocketcar_x = 45f;
+KeyFrame[56].movrocketcar_z = -64f;
+KeyFrame[56].girorocketcar = -90f;
+
+KeyFrame[57].movrocketcar_x = 45f;
+KeyFrame[57].movrocketcar_z = -64f;
+KeyFrame[57].girorocketcar = -90f;
+
+KeyFrame[58].movrocketcar_x = 45f;
+KeyFrame[58].movrocketcar_z = -64f;
+KeyFrame[58].girorocketcar = -90f;
+
+KeyFrame[59].movrocketcar_x = 47f;
+KeyFrame[59].movrocketcar_z = -64f;
+KeyFrame[59].girorocketcar = -90f;
+
+KeyFrame[60].movrocketcar_x = 47f;
+KeyFrame[60].movrocketcar_z = -64f;
+KeyFrame[60].girorocketcar = -90f;
+
+KeyFrame[61].movrocketcar_x = 47f;
+KeyFrame[61].movrocketcar_z = -64f;
+KeyFrame[61].girorocketcar = -90f;
+
+KeyFrame[62].movrocketcar_x = 47f;
+KeyFrame[62].movrocketcar_z = -64f;
+KeyFrame[62].girorocketcar = -90f;
+
+KeyFrame[63].movrocketcar_x = 47f;
+KeyFrame[63].movrocketcar_z = -64f;
+KeyFrame[63].girorocketcar = -90f;
+
+KeyFrame[64].movrocketcar_x = 47f;
+KeyFrame[64].movrocketcar_z = -64f;
+KeyFrame[64].girorocketcar = -90f;
+
+KeyFrame[65].movrocketcar_x = 49f;
+KeyFrame[65].movrocketcar_z = -64f;
+KeyFrame[65].girorocketcar = -90f;
+
+KeyFrame[66].movrocketcar_x = 49f;
+KeyFrame[66].movrocketcar_z = -64f;
+KeyFrame[66].girorocketcar = -90f;
+
+KeyFrame[67].movrocketcar_x = 49f;
+KeyFrame[67].movrocketcar_z = -64f;
+KeyFrame[67].girorocketcar = -90f;
+
+KeyFrame[68].movrocketcar_x = 49f;
+KeyFrame[68].movrocketcar_z = -64f;
+KeyFrame[68].girorocketcar = -90f;
+
+KeyFrame[69].movrocketcar_x = 49f;
+KeyFrame[69].movrocketcar_z = -64f;
+KeyFrame[69].girorocketcar = -90f;
+
+KeyFrame[70].movrocketcar_x = 51f;
+KeyFrame[70].movrocketcar_z = -64f;
+KeyFrame[70].girorocketcar = -90f;
+
+KeyFrame[71].movrocketcar_x = 51f;
+KeyFrame[71].movrocketcar_z = -64f;
+KeyFrame[71].girorocketcar = -90f;
+
+KeyFrame[72].movrocketcar_x = 51f;
+KeyFrame[72].movrocketcar_z = -64f;
+KeyFrame[72].girorocketcar = -90f;
+
+KeyFrame[73].movrocketcar_x = 51f;
+KeyFrame[73].movrocketcar_z = -64f;
+KeyFrame[73].girorocketcar = -90f;
+
+KeyFrame[74].movrocketcar_x = 51f;
+KeyFrame[74].movrocketcar_z = -64f;
+KeyFrame[74].girorocketcar = -90f;
+
+KeyFrame[75].movrocketcar_x = 51f;
+KeyFrame[75].movrocketcar_z = -64f;
+KeyFrame[75].girorocketcar = -90f;
+
+KeyFrame[76].movrocketcar_x = 53f;
+KeyFrame[76].movrocketcar_z = -64f;
+KeyFrame[76].girorocketcar = -90f;
+
+KeyFrame[77].movrocketcar_x = 53f;
+KeyFrame[77].movrocketcar_z = -64f;
+KeyFrame[77].girorocketcar = -90f;
+
+KeyFrame[78].movrocketcar_x = 53f;
+KeyFrame[78].movrocketcar_z = -64f;
+KeyFrame[78].girorocketcar = -90f;
+
+KeyFrame[79].movrocketcar_x = 53f;
+KeyFrame[79].movrocketcar_z = -64f;
+KeyFrame[79].girorocketcar = -90f;
+
+KeyFrame[80].movrocketcar_x = 53f;
+KeyFrame[80].movrocketcar_z = -64f;
+KeyFrame[80].girorocketcar = -90f;
+
+KeyFrame[81].movrocketcar_x = 55f;
+KeyFrame[81].movrocketcar_z = -64f;
+KeyFrame[81].girorocketcar = -90f;
+
+KeyFrame[82].movrocketcar_x = 55f;
+KeyFrame[82].movrocketcar_z = -64f;
+KeyFrame[82].girorocketcar = -90f;
+
+KeyFrame[83].movrocketcar_x = 55f;
+KeyFrame[83].movrocketcar_z = -64f;
+KeyFrame[83].girorocketcar = -90f;
+
+KeyFrame[84].movrocketcar_x = 55f;
+KeyFrame[84].movrocketcar_z = -64f;
+KeyFrame[84].girorocketcar = -90f;
+
+KeyFrame[85].movrocketcar_x = 57f;
+KeyFrame[85].movrocketcar_z = -64f;
+KeyFrame[85].girorocketcar = -90f;
+
+KeyFrame[86].movrocketcar_x = 57f;
+KeyFrame[86].movrocketcar_z = -64f;
+KeyFrame[86].girorocketcar = -90f;
+
+KeyFrame[87].movrocketcar_x = 57f;
+KeyFrame[87].movrocketcar_z = -64f;
+KeyFrame[87].girorocketcar = -90f;
+
+KeyFrame[88].movrocketcar_x = 57f;
+KeyFrame[88].movrocketcar_z = -64f;
+KeyFrame[88].girorocketcar = -90f;
+
+KeyFrame[89].movrocketcar_x = 57f;
+KeyFrame[89].movrocketcar_z = -64f;
+KeyFrame[89].girorocketcar = -90f;
+
+KeyFrame[90].movrocketcar_x = 57f;
+KeyFrame[90].movrocketcar_z = -64f;
+KeyFrame[90].girorocketcar = -90f;
+
+KeyFrame[91].movrocketcar_x = 59f;
+KeyFrame[91].movrocketcar_z = -64f;
+KeyFrame[91].girorocketcar = -90f;
+
+KeyFrame[92].movrocketcar_x = 59f;
+KeyFrame[92].movrocketcar_z = -64f;
+KeyFrame[92].girorocketcar = -90f;
+
+KeyFrame[93].movrocketcar_x = 59f;
+KeyFrame[93].movrocketcar_z = -64f;
+KeyFrame[93].girorocketcar = -90f;
+
+KeyFrame[94].movrocketcar_x = 59f;
+KeyFrame[94].movrocketcar_z = -64f;
+KeyFrame[94].girorocketcar = -90f;
+
+KeyFrame[95].movrocketcar_x = 59f;
+KeyFrame[95].movrocketcar_z = -64f;
+KeyFrame[95].girorocketcar = -90f;
+
+KeyFrame[96].movrocketcar_x = 59f;
+KeyFrame[96].movrocketcar_z = -64f;
+KeyFrame[96].girorocketcar = -90f;
+
+KeyFrame[97].movrocketcar_x = 61f;
+KeyFrame[97].movrocketcar_z = -64f;
+KeyFrame[97].girorocketcar = -90f;
+
+KeyFrame[98].movrocketcar_x = 61f;
+KeyFrame[98].movrocketcar_z = -64f;
+KeyFrame[98].girorocketcar = -90f;
+
+KeyFrame[99].movrocketcar_x = 61f;
+KeyFrame[99].movrocketcar_z = -64f;
+KeyFrame[99].girorocketcar = -90f;
+
+KeyFrame[100].movrocketcar_x = 61f;
+KeyFrame[100].movrocketcar_z = -64f;
+KeyFrame[100].girorocketcar = -90f;
+
+KeyFrame[101].movrocketcar_x = 62f;
+KeyFrame[101].movrocketcar_z = -64f;
+KeyFrame[101].girorocketcar = -90f;
+
+KeyFrame[102].movrocketcar_x = 62f;
+KeyFrame[102].movrocketcar_z = -64f;
+KeyFrame[102].girorocketcar = -90f;
+
+KeyFrame[103].movrocketcar_x = 62f;
+KeyFrame[103].movrocketcar_z = -64f;
+KeyFrame[103].girorocketcar = -90f;
+
+KeyFrame[104].movrocketcar_x = 62f;
+KeyFrame[104].movrocketcar_z = -64f;
+KeyFrame[104].girorocketcar = -90f;
+
+KeyFrame[105].movrocketcar_x = 62f;
+KeyFrame[105].movrocketcar_z = -64f;
+KeyFrame[105].girorocketcar = -90f;
+
+KeyFrame[106].movrocketcar_x = 62f;
+KeyFrame[106].movrocketcar_z = -64f;
+KeyFrame[106].girorocketcar = -90f;
+
+KeyFrame[107].movrocketcar_x = 62f;
+KeyFrame[107].movrocketcar_z = -64f;
+KeyFrame[107].girorocketcar = -90f;
+
+KeyFrame[108].movrocketcar_x = 62f;
+KeyFrame[108].movrocketcar_z = -64f;
+KeyFrame[108].girorocketcar = -90f;
+
+KeyFrame[109].movrocketcar_x = 62f;
+KeyFrame[109].movrocketcar_z = -64f;
+KeyFrame[109].girorocketcar = -90f;
+
+KeyFrame[110].movrocketcar_x = 62f;
+KeyFrame[110].movrocketcar_z = -64f;
+KeyFrame[110].girorocketcar = -90f;
+
+KeyFrame[111].movrocketcar_x = 62f;
+KeyFrame[111].movrocketcar_z = -64f;
+KeyFrame[111].girorocketcar = -90f;
+
+KeyFrame[112].movrocketcar_x = 64f;
+KeyFrame[112].movrocketcar_z = -64f;
+KeyFrame[112].girorocketcar = -90f;
+
+KeyFrame[113].movrocketcar_x = 64f;
+KeyFrame[113].movrocketcar_z = -64f;
+KeyFrame[113].girorocketcar = -90f;
+
+KeyFrame[114].movrocketcar_x = 67f;
+KeyFrame[114].movrocketcar_z = -64f;
+KeyFrame[114].girorocketcar = -90f;
+
+KeyFrame[115].movrocketcar_x = 67f;
+KeyFrame[115].movrocketcar_z = -64f;
+KeyFrame[115].girorocketcar = -90f;
+
+KeyFrame[116].movrocketcar_x = 67f;
+KeyFrame[116].movrocketcar_z = -64f;
+KeyFrame[116].girorocketcar = -90f;
+
+KeyFrame[117].movrocketcar_x = 67f;
+KeyFrame[117].movrocketcar_z = -64f;
+KeyFrame[117].girorocketcar = -90f;
+
+KeyFrame[118].movrocketcar_x = 67f;
+KeyFrame[118].movrocketcar_z = -64f;
+KeyFrame[118].girorocketcar = -90f;
+
+KeyFrame[119].movrocketcar_x = 67f;
+KeyFrame[119].movrocketcar_z = -64f;
+KeyFrame[119].girorocketcar = -90f;
+
+KeyFrame[120].movrocketcar_x = 67f;
+KeyFrame[120].movrocketcar_z = -64f;
+KeyFrame[120].girorocketcar = -90f;
+
+KeyFrame[121].movrocketcar_x = 67f;
+KeyFrame[121].movrocketcar_z = -64f;
+KeyFrame[121].girorocketcar = -90f;
+
+KeyFrame[122].movrocketcar_x = 69f;
+KeyFrame[122].movrocketcar_z = -64f;
+KeyFrame[122].girorocketcar = -90f;
+
+KeyFrame[123].movrocketcar_x = 69f;
+KeyFrame[123].movrocketcar_z = -64f;
+KeyFrame[123].girorocketcar = -90f;
+
+KeyFrame[124].movrocketcar_x = 69f;
+KeyFrame[124].movrocketcar_z = -64f;
+KeyFrame[124].girorocketcar = -90f;
+
+KeyFrame[125].movrocketcar_x = 69f;
+KeyFrame[125].movrocketcar_z = -64f;
+KeyFrame[125].girorocketcar = -90f;
+
+KeyFrame[126].movrocketcar_x = 69f;
+KeyFrame[126].movrocketcar_z = -64f;
+KeyFrame[126].girorocketcar = -90f;
+
+KeyFrame[127].movrocketcar_x = 70f;
+KeyFrame[127].movrocketcar_z = -64f;
+KeyFrame[127].girorocketcar = -90f;
+
+KeyFrame[128].movrocketcar_x = 71f;
+KeyFrame[128].movrocketcar_z = -64f;
+KeyFrame[128].girorocketcar = -90f;
+
+KeyFrame[129].movrocketcar_x = 71f;
+KeyFrame[129].movrocketcar_z = -64f;
+KeyFrame[129].girorocketcar = -90f;
+
+KeyFrame[130].movrocketcar_x = 72f;
+KeyFrame[130].movrocketcar_z = -64f;
+KeyFrame[130].girorocketcar = -90f;
+
+KeyFrame[131].movrocketcar_x = 72f;
+KeyFrame[131].movrocketcar_z = -64f;
+KeyFrame[131].girorocketcar = -90f;
+
+KeyFrame[132].movrocketcar_x = 72f;
+KeyFrame[132].movrocketcar_z = -64f;
+KeyFrame[132].girorocketcar = -90f;
+
+KeyFrame[133].movrocketcar_x = 72f;
+KeyFrame[133].movrocketcar_z = -64f;
+KeyFrame[133].girorocketcar = -90f;
+
+KeyFrame[134].movrocketcar_x = 72f;
+KeyFrame[134].movrocketcar_z = -64f;
+KeyFrame[134].girorocketcar = -90f;
+
+KeyFrame[135].movrocketcar_x = 72f;
+KeyFrame[135].movrocketcar_z = -64f;
+KeyFrame[135].girorocketcar = -90f;
+
+KeyFrame[136].movrocketcar_x = 72f;
+KeyFrame[136].movrocketcar_z = -64f;
+KeyFrame[136].girorocketcar = -90f;
+
+KeyFrame[137].movrocketcar_x = 72f;
+KeyFrame[137].movrocketcar_z = -64f;
+KeyFrame[137].girorocketcar = -90f;
+
+KeyFrame[138].movrocketcar_x = 73f;
+KeyFrame[138].movrocketcar_z = -64f;
+KeyFrame[138].girorocketcar = -90f;
+
+KeyFrame[139].movrocketcar_x = 74f;
+KeyFrame[139].movrocketcar_z = -64f;
+KeyFrame[139].girorocketcar = -90f;
+
+KeyFrame[140].movrocketcar_x = 74f;
+KeyFrame[140].movrocketcar_z = -64f;
+KeyFrame[140].girorocketcar = -90f;
+
+KeyFrame[141].movrocketcar_x = 74f;
+KeyFrame[141].movrocketcar_z = -64f;
+KeyFrame[141].girorocketcar = -90f;
+
+KeyFrame[142].movrocketcar_x = 74f;
+KeyFrame[142].movrocketcar_z = -64f;
+KeyFrame[142].girorocketcar = -90f;
+
+KeyFrame[143].movrocketcar_x = 74f;
+KeyFrame[143].movrocketcar_z = -64f;
+KeyFrame[143].girorocketcar = -90f;
+
+KeyFrame[144].movrocketcar_x = 74f;
+KeyFrame[144].movrocketcar_z = -64f;
+KeyFrame[144].girorocketcar = -90f;
+
+KeyFrame[145].movrocketcar_x = 74f;
+KeyFrame[145].movrocketcar_z = -64f;
+KeyFrame[145].girorocketcar = -90f;
+
+KeyFrame[146].movrocketcar_x = 77f;
+KeyFrame[146].movrocketcar_z = -64f;
+KeyFrame[146].girorocketcar = -90f;
+
+KeyFrame[147].movrocketcar_x = 77f;
+KeyFrame[147].movrocketcar_z = -64f;
+KeyFrame[147].girorocketcar = -90f;
+
+KeyFrame[148].movrocketcar_x = 77f;
+KeyFrame[148].movrocketcar_z = -64f;
+KeyFrame[148].girorocketcar = -90f;
+
+KeyFrame[149].movrocketcar_x = 77f;
+KeyFrame[149].movrocketcar_z = -64f;
+KeyFrame[149].girorocketcar = -90f;
+
+KeyFrame[150].movrocketcar_x = 77f;
+KeyFrame[150].movrocketcar_z = -64f;
+KeyFrame[150].girorocketcar = -90f;
+
