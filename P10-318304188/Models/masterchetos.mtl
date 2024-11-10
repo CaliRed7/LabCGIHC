@@ -1,0 +1,19 @@
+newmtl MasterChief:masterchief
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd masterchief.PNG
+map_Ka masterchief.PNG
+bump  -bm 0 masterchief_bump.PNG
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl MasterChief:mc_emblem
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 0.00
